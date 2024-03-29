@@ -40,136 +40,64 @@ Este es un proyecto de una librería desarrollada utilizando Django como framewo
 
 ### Comenzando 🚀
 
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+Estas instrucciones te guiarán para configurar y ejecutar el proyecto en tu entorno local.
 
 ### Pre-requisitos 📋
+
 Antes de comenzar, asegúrate de tener instalados los siguientes requisitos:
 
-1.Python: Para instalar Django, necesitarás tener Python instalado en tu sistema. Puedes descargar la última versión de Python desde su sitio web oficial: https://www.python.org/downloads/
+1. SQL Server Integration Services (SSIS): Para realizar el proceso ETL. Puedes instalarlo como parte de la suite de herramientas de Microsoft SQL Server.
+   Descarga SQL Server desde el sitio web oficial de Microsoft: [Microsoft SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads)
 
-2.Anaconda: Puedes descargar la última versión de Python desde su sitio web oficial: 
-https://www.anaconda.com/
+2. SQL Server Management Studio (SSMS): Para administrar SQL Server y ejecutar consultas.
+   Descarga SSMS desde el sitio web oficial de Microsoft: [SSMS](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 
-3.MySQL: Asegúrate de tener una instancia de MySQL instalada y configurada.
-Puedes descargar MySQL desde su sitio web oficial:
-https://www.mysql.com/downloads/
-
-4.XAMPP: En caso de que no puedas instalar My SQL por espacio, prueba esta alternativa.
-Puedes descargar XAMPP desde su sitio web oficial:
-https://www.apachefriends.org/es/download.html
-tutorial: https://www.youtube.com/watch?v=MtllDrDm4cM
+3. Power BI: Para visualizar y analizar datos.
+   Descarga Power BI desde el sitio web oficial de Microsoft: [Power BI](https://powerbi.microsoft.com/es-es/downloads/)
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+Sigue estos pasos para configurar y ejecutar el proyecto:
 
-1.Instala las dependencias necesarias:
+1. Instala las herramientas necesarias según los requisitos mencionados anteriormente.
 
-```
-pip install -r requirements.txt
-```
+2. Configura el proceso ETL en SQL Server Integration Services (SSIS) para extraer, transformar y cargar los datos según sea necesario.
 
-2.Configura la base de datos principal:
-Crea una base de datos MySQL o XAMPP para el proyecto.
-turial XAMPP: https://www.youtube.com/watch?v=BKyqmDwz1pM
-Actualiza la configuración de la base de datos en el archivo settings.py en la sección DATABASES con tus credenciales de MySQL.
+3. Configura y ejecuta el cubo y los KPIs en SQL Server Analysis Services (SSAS) si es parte de tu proyecto.
 
-3.Realiza las migraciones:
+4. Desarrolla visualizaciones y paneles en Power BI para analizar los datos y presentar los resultados.
 
-```
-python manage.py migrate
-```
-4.Ejecuta el servidor de desarrollo:
+### Ejecutando las pruebas ⚙️
 
-```
-python manage.py runserver
-```
-
-5.Configura la base de datos para las APIS:
-Crea una base de datos MySQL o XAMPP para las APIS que estan en el rar integradas
-(Tienen que estar funcionando las apis en simultaneo para el funcionamiento completo del proyecto).
-turial XAMPP: https://www.youtube.com/watch?v=BKyqmDwz1pM
-Actualiza la configuración de la base de datos en el archivo settings.py en la sección DATABASES con tus credenciales de MySQL(El mismo procedimiento que la apliación principal).
-
-6.Bases de datos con entorno virtual(opcional, esto es si no pudiste con la forma de arriba):
-
-Tutorial: https://www.youtube.com/watch?v=SXVdnEGetPI
-```
-python -m venv myenv
-```
-
-Activar el entorno virtual:
-
-En Windows:
-
-```
-myenv\Scripts\activate
-```
-
-En macOS y Linux:
-
-```
-source myenv/bin/activate
-```
-
-Realiza las migraciones:
-
-```
-python manage.py migrate
-```
-
-Ejecuta el servidor de desarrollo:
-
-```
-python manage.py runserver
-```
-
-4.Accede a la aplicación principal en tu navegador visitando http://localhost:8000/.
-
-  Accede a la aplicación starken APi en tu navegador visitando http://localhost:8080/.
-  
-  Accede a la aplicación alphilia en tu navegador visitando http://localhost:8001/.
-
-
-## Ejecutando las pruebas ⚙️
-
-Para ejecutar las pruebas automatizadas para este sistema, utiliza el siguiente comando:
-
-```
-python manage.py test
-```
+Si has implementado pruebas automatizadas para tu proyecto ETL o para el cubo SSAS, ejecútalas según sea necesario para garantizar el correcto funcionamiento del sistema.
 
 ### Analice las pruebas end-to-end 🔩
 
-Las pruebas end-to-end verifican que todas las partes de la aplicación, tanto el front-end como el back-end, funcionen correctamente en conjunto. Estas pruebas prueban los flujos de trabajo completos del sistema para garantizar su correcto funcionamiento.
+Las pruebas end-to-end deben verificar que todas las partes del proceso ETL y del análisis de datos funcionen correctamente en conjunto. Asegúrate de probar los flujos de trabajo completos del sistema para garantizar su correcto funcionamiento.
 
 ### Y las pruebas de estilo de codificación ⌨️
 
-Las pruebas de estilo de codificación aseguran que el código escrito siga las pautas y convenciones establecidas por el proyecto. Esto ayuda a mantener un código limpio y fácilmente comprensible para todos los colaboradores.
-
+Las pruebas de estilo de codificación aseguran que el código SSIS y MDX (si es aplicable) siga las pautas y convenciones establecidas por el proyecto.
 
 ## Construido con 🛠️
 
-Las herramientas utilizadas para crear este proyecto son:
+Las herramientas utilizadas para este proyecto son:
 
-Django - El framework web utilizado.
-MySQL - Base de datos utilizada.
-Boostrap - Diseño web.
-SASS - Diseño web.
-Otros paquetes y dependencias de Python especificados en requirements.txt.
+- SQL Server Integration Services (SSIS) - Para el proceso ETL.
+- SQL Server Management Studio (SSMS) - Para administrar SQL Server.
+- SQL Server Analysis Services (SSAS) - Para desarrollar el cubo y los KPIs.
+- Power BI - Para la visualización y análisis de datos.
 
 ## Autores ✒️
 
-* **Orlando Echeverría Hernande**   
-* **Juan pablo sepulveda** 
-* **Martín rubio** 
+* **Nombre del autor** - *Detalles adicionales* - [Perfil de GitHub](https://github.com/usuario)
+
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: 0xf253fc233333078436d111175e5a76a649890000 (broma, ¡no es una dirección real! 😄)
+* Comparte este proyecto con otros.
+* Invita a tus colegas a colaborar en el proyecto.
+* Da las gracias públicamente a aquellos que te han apoyado.
+* ¡Disfruta trabajando con SQL Server, SSIS, SSAS y Power BI!
 
 ---
-⌨️ con ❤️ por [Echeverría](https://github.com/Echeverria29) 😊
-¡Gracias por interesarte en este proyecto! Si tienes alguna pregunta o necesitas ayuda, no dudes en comunicarte con nosotros. ¡Disfruta trabajando con Django y MySQL!
+⌨️ con ❤️ por [Tu nombre](https://github.com/usuario) 😊
