@@ -90,7 +90,7 @@ Las herramientas utilizadas para este proyecto son:
 
 ## Autores ✒️
 
-* **Nombre del autor** - *Detalles adicionales* - [Perfil de GitHub](https://github.com/usuario)
+* **Orlando Echeverría Hernandez**  
 
 ## Expresiones de Gratitud 🎁
 
@@ -100,4 +100,4 @@ Las herramientas utilizadas para este proyecto son:
 * ¡Disfruta trabajando con SQL Server, SSIS, SSAS y Power BI!
 
 ---
-⌨️ con ❤️ por [Tu nombre](https://github.com/usuario) 😊
+⌨️ con ❤️ por [Echeverría](https://github.com/Echeverria29) 😊
