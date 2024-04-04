@@ -16,31 +16,16 @@ Este es un proyecto de inteligencia de negocios que ayudara en el crecimiento a 
 ### Envío de todos los datos correspondientes a FACT ventas
 ![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/ETLfactvennntas.JPG)
 
-### Pago Paypal
+### Fact poblada
+![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/factpoblada.png)
 
+### Fase 2
 
-### seguimiento starken
+### Creación del cubo
+![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/cubokent.JPG)
 
-### Diagrama de despliegue
-
-
-### Index
-
-
-
-### Registrarse
-
-
-### Inicio de sesión
-
-
-### Tienda
-
-### Carrito
-
-
-### Pago con PayPal
-
+### Realizamos nuestros KPI y programamos las metas
+![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/kpiejemplo.JPG)
 
 ### Comenzando 🚀
 
