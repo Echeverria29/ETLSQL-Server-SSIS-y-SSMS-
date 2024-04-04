@@ -1,7 +1,7 @@
 # ETLSQL-Server-SSIS-y-SSMS-
-Este es un proyecto de una librería desarrollada utilizando Django como framework web y MySQL como base de datos. Esta aplicación es una aplicación full-stack de una libreria web, integrando Api Rest para el seguimiento(simulando starken) y proveedor(alphilia) más paypal como metodo de pago.
-### ETL completo
-![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/ETL.JPG)
+Este es un proyecto de inteligencia de negocios que ayudara en el crecimiento a la tienda kent food, realizando un estudio completo de sus datos y realizando desde el datawarehouse hasta la creación kubos que permiten el consumo de información y analisis a traves de Power Bi..
+### Data base origin
+![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/kentorigin.JPG)
 
 
 ### Solo se solicitaron algunos de los diagramas 4+1 tales como:
