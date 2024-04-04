@@ -1,17 +1,20 @@
 # ETLSQL-Server-SSIS-y-SSMS-
-Este es un proyecto de inteligencia de negocios que ayudara en el crecimiento a la tienda kent food, realizando un estudio completo de sus datos y realizando desde el datawarehouse hasta la creación kubos que permiten el consumo de información y analisis a traves de Power Bi..
+Este es un proyecto de inteligencia de negocios que ayudara en el crecimiento a la tienda Kent Food, realizando un estudio completo de sus datos y realizando desde el datawarehouse hasta la creación cubos que permiten el consumo de información y análisis a través de Power Bi.
+
 ### Data base origin
 ![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/kentorigin.JPG)
 
+### Creación datawarehouse
+![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/kentdw.JPG)
 
-### Solo se solicitaron algunos de los diagramas 4+1 tales como:
+### ETL completo
+![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/ETL.JPG)
 
-### Vista lógica
+### ETL tabla cliente como ejemplo del desarrollo
+![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/ETLinncrementealcliente.JPG)
 
-
-### 
-
-### Diagramas de secuencia
+### Envío de todos los datos correspondientes a FACT ventas
+![](https://github.com/Echeverria29/ETLSQL-Server-SSIS-y-SSMS-/blob/main/imagesETL/ETLfactvennntas.JPG)
 
 ### Pago Paypal
 
